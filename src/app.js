@@ -10,6 +10,6 @@ app.set('view engine','ejs');
 app.use(express.json());
 app.use(express.urlencoded({extended:false}));
 app.use(morgan('dev'));
-app.use('/api/sensors',sensorvaluesRouter);
+app.use('/api',sensorvaluesRouter);
 
 module.exports=app;
