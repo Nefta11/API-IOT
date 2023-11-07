@@ -9,4 +9,5 @@ const sensorvaluesSchema=new Schema({
     versionKey:false,
     timestamps:true
 });
+
 module.exports=model('sensorvalues',sensorvaluesSchema);
